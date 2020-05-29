@@ -1,0 +1,48 @@
+body, html {
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: white;
+}
+#breakout {
+  position: absolute; left: 0px; top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+  /* cursor: none; */
+}
+#congrats {
+  padding-top: 20%;
+  position: absolute; left: 0px; top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+  z-index: 1;
+  text-align: center;
+}
+#congrats button {
+  font-size: 2em;
+  padding: 2%;
+}
+.controls {
+  width: 50%;
+  font-size: 1em;
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  z-index: 1;
+}
+button {
+  background-color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+}
+.controls button {
+  padding: 1%;
+  border-radius: 10%;
+}
+
+
